@@ -19,6 +19,7 @@ eth|wallet-sdk
 execution|go-defi-sdk
 multi-signature-check|wallet-sdk
 polka|wallet-sdk
+redpacket|go-red-packet
 service|go-defi-sdk
 solana|wallet-sdk
 types|go-defi-sdk
