@@ -9,6 +9,7 @@ Build all project into one sdk for app.
 包名 | 项目
 ---|---
 aptos|wallet-sdk
+aptosclient|go-aptos
 base|wallet-sdk
 btc|wallet-sdk
 core|wallet-sdk

@@ -1,3 +1,4 @@
+// 此文件不会被编译到 sdk，主要是用作引用其他项目，方式 go mod tidy 删掉 mod 引用
 package appsdkbuild
 
 import (
