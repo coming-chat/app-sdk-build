@@ -26,10 +26,8 @@ pkgUtil = ${moduleDefi}/util
 moduleRedpacket=github.com/coming-chat/go-red-packet
 pkgRedpacket=${moduleRedpacket}/redpacket
 
-moduleT=github.com/coming-chat/app-build
-pkgBuildMod=${moduleT}/buildmod
 
-pkgAll = ${pkgBase} ${pkgWallet} ${pkgPolka} ${pkgBtc} ${pkgEth} ${pkgCosmos} ${pkgDoge} ${pkgSolana} ${pkgAptos} ${pkgMSCheck} ${pkgUtil} ${pkgExecution} ${pkgService} ${pkgTypes} ${pkgRedpacket} ${pkgBuildMod}
+pkgAll = ${pkgBase} ${pkgWallet} ${pkgPolka} ${pkgBtc} ${pkgEth} ${pkgCosmos} ${pkgDoge} ${pkgSolana} ${pkgAptos} ${pkgMSCheck} ${pkgUtil} ${pkgExecution} ${pkgService} ${pkgTypes} ${pkgRedpacket}
 
 iosSdkName=Wallet
 andSdkName=wallet
