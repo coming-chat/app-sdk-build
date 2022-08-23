@@ -58,6 +58,19 @@ iosCopySdk:
 		&& cp -Rf ../${iosPackageName} Sources \
 		&& cp -Rf ../${iosPackageName}/ios-arm64/Wallet.framework/Versions/A/Headers Sources
 
+iosPublishVersion:
+ifndef v
+	@echo 发布 iOS 包需要指定一个版本，例如 make publishIOSVersion v=1.0.1
+	@exit 1
+endif
+	@make iosCopySdk
+	@cd ${iosReposity} \
+		&& git add --all \
+		&& git commit -m 'Auto Publish ${v}' -m "refer to `git rev-parse HEAD`" \
+		&& git tag -f ${v} \
+		&& git push origin main tag ${v} --force
+	@make iosPublishMain
+
 iosPublishMain:
 	@make iosCopySdk
 	@cd ${iosReposity} \
