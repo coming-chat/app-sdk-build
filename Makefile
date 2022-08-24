@@ -41,6 +41,9 @@ andZipName=wallet-SDK-android
 buildAllSDKAndroid:
 	gomobile bind -ldflags "-s -w" -target=android/arm,android/arm64 -o=${outdir}/${andSdkName}.aar ${pkgAll}
 
+buildAllSDKIOS:
+	GOOS=ios gomobile bind -ldflags "-s -w" -target=ios  -o=${outdir}/${iosSdkName}.xcframework ${pkgAll}
+
 androidPublishVersion:
 ifndef v
 	@echo 发布 android 包需要指定一个版本，例如 make androidPublishVersion v=0.1.3
