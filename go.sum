@@ -139,6 +139,8 @@ github.com/coming-chat/go-red-packet v0.0.0-20220822130353-3777b66cda96 h1:ovv4h
 github.com/coming-chat/go-red-packet v0.0.0-20220822130353-3777b66cda96/go.mod h1:lKEVURsiimB3NAN+4XnzDv8cLOoLZnXVpLC9sHjZE+A=
 github.com/coming-chat/go-red-packet v0.0.0-20220823095504-f621eb35a5ab h1:0KA0a4GHiN/0le+Yz1/R1siD2JsCnIpaN1SSmrYJNfU=
 github.com/coming-chat/go-red-packet v0.0.0-20220823095504-f621eb35a5ab/go.mod h1:2xwlFYPHgsGCakuLUuFEaNJZJBvFi0pv9xPCcPZfS3E=
+github.com/coming-chat/go-red-packet v0.0.0-20220824063842-86d13505eeb5 h1:xQOh1YMVOk0dBL6tcXzXaLwBD4/ovWZxIIyjFPgyanY=
+github.com/coming-chat/go-red-packet v0.0.0-20220824063842-86d13505eeb5/go.mod h1:2xwlFYPHgsGCakuLUuFEaNJZJBvFi0pv9xPCcPZfS3E=
 github.com/coming-chat/wallet-SDK v0.2.7-0.20220822130038-3237363ed217 h1:l0FB+tiW9IlC9IvXQ42IYt6D3nsJ7DK4viZEeR2jTJc=
 github.com/coming-chat/wallet-SDK v0.2.7-0.20220822130038-3237363ed217/go.mod h1:wkWosw3KOFBrdFwLvivyRKSLCRpNH7kH1j4kpTsRaMs=
 github.com/coming-chat/wallet-SDK v0.2.7-0.20220823094551-3cde4c736eb0 h1:sJ+bYELT/B2zei5HalE4taWt0C7eynzrsi+Y/3tTpdw=
