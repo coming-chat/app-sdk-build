@@ -131,12 +131,10 @@ github.com/coming-chat/go-aptos v0.0.0-20220822070214-2773ac55a2e8 h1:DNXkc3H0P7
 github.com/coming-chat/go-aptos v0.0.0-20220822070214-2773ac55a2e8/go.mod h1:3dLPXwaoPS2zCCAL+hRRfMhVISz/tqPFaxcMYDOU8+g=
 github.com/coming-chat/go-defi-sdk v0.1.3-0.20220823104935-b714b7bc11e8 h1:KrRhxpkbmpnaxTxAXdD7GaKh7Q0cHMJTk6i+EHaLu2g=
 github.com/coming-chat/go-defi-sdk v0.1.3-0.20220823104935-b714b7bc11e8/go.mod h1:8W1bGojjBZhmR1kI1Jk0oErT05lIKC+/NQaGLAvttrU=
-github.com/coming-chat/go-red-packet v0.0.0-20220825094637-afd25fa95d7e h1:G02FcOw8n0+yX8LBOlX4Ls1T6s1Y6LEfvI9CgFYM8Ak=
-github.com/coming-chat/go-red-packet v0.0.0-20220825094637-afd25fa95d7e/go.mod h1:XMaCxVxWQDFiaj4IJI67rzQ5wx0J4m4mQVwA1z2ac94=
-github.com/coming-chat/go-red-packet v0.0.0-20220825100148-e569b1d04012 h1:V771gIQyPQ9SjETjC1PhkWp1DPC21zvPoGevT+KV4yQ=
-github.com/coming-chat/go-red-packet v0.0.0-20220825100148-e569b1d04012/go.mod h1:XMaCxVxWQDFiaj4IJI67rzQ5wx0J4m4mQVwA1z2ac94=
-github.com/coming-chat/wallet-SDK v0.2.7-0.20220825094521-82dd44e01f13 h1:9i2tgycWt/lBtsLk7ofHXczuYXr3uywGsXcVbiaNGLU=
-github.com/coming-chat/wallet-SDK v0.2.7-0.20220825094521-82dd44e01f13/go.mod h1:wkWosw3KOFBrdFwLvivyRKSLCRpNH7kH1j4kpTsRaMs=
+github.com/coming-chat/go-red-packet v0.0.0-20220825100952-ae5fca98c6cf h1:C1mAIAqxotrw7SgRoE/z0J3tjtVcX/YtBUZvfc5TPUU=
+github.com/coming-chat/go-red-packet v0.0.0-20220825100952-ae5fca98c6cf/go.mod h1:Mrfjuqe7wKR3++rwrjovCnYMInbvEj0M+Dk/1bOb+OQ=
+github.com/coming-chat/wallet-SDK v0.2.7-0.20220825100849-59eaf7944491 h1:1/t7/b4lW05IODpJj0Dp1k+7l1TXJwAyY2G/ao5zvA8=
+github.com/coming-chat/wallet-SDK v0.2.7-0.20220825100849-59eaf7944491/go.mod h1:wkWosw3KOFBrdFwLvivyRKSLCRpNH7kH1j4kpTsRaMs=
 github.com/consensys/bavard v0.1.8-0.20210406032232-f3452dc9b572/go.mod h1:Bpd0/3mZuaj6Sj+PqrmIquiOKy397AKGThQPaGzNXAQ=
 github.com/consensys/gnark-crypto v0.4.1-0.20210426202927-39ac3d4b3f1f/go.mod h1:815PAHg3wvysy0SyIqanF8gZ0Y1wjk/hrDHD/iT88+Q=
 github.com/coreos/etcd v3.3.10+incompatible/go.mod h1:uF7uidLiAD3TWHmW31ZFd/JWoc32PjwdhPthX9715RE=
