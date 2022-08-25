@@ -137,8 +137,11 @@ github.com/coming-chat/go-red-packet v0.0.0-20220824102844-22ac3eced84d h1:TWnPn
 github.com/coming-chat/go-red-packet v0.0.0-20220824102844-22ac3eced84d/go.mod h1:jeUJSWbolHwxALBoFJVKVVtczKrC/Q7DIIrZwkI1Nj4=
 github.com/coming-chat/go-red-packet v0.0.0-20220825091305-ac04c3c28cb6 h1:jpQ+GSm+4FLgw0McK9Rjln7ycb78D479dgixCJtY7Dg=
 github.com/coming-chat/go-red-packet v0.0.0-20220825091305-ac04c3c28cb6/go.mod h1:jeUJSWbolHwxALBoFJVKVVtczKrC/Q7DIIrZwkI1Nj4=
+github.com/coming-chat/go-red-packet v0.0.0-20220825094637-afd25fa95d7e h1:G02FcOw8n0+yX8LBOlX4Ls1T6s1Y6LEfvI9CgFYM8Ak=
+github.com/coming-chat/go-red-packet v0.0.0-20220825094637-afd25fa95d7e/go.mod h1:XMaCxVxWQDFiaj4IJI67rzQ5wx0J4m4mQVwA1z2ac94=
 github.com/coming-chat/wallet-SDK v0.2.7-0.20220824084133-43cee67b64f6 h1:OTPpB5t+YnhDBAcrkfV34MJRa1LpoxGgR9/bcYDxgFM=
 github.com/coming-chat/wallet-SDK v0.2.7-0.20220824084133-43cee67b64f6/go.mod h1:wkWosw3KOFBrdFwLvivyRKSLCRpNH7kH1j4kpTsRaMs=
+github.com/coming-chat/wallet-SDK v0.2.7-0.20220825094521-82dd44e01f13/go.mod h1:wkWosw3KOFBrdFwLvivyRKSLCRpNH7kH1j4kpTsRaMs=
 github.com/consensys/bavard v0.1.8-0.20210406032232-f3452dc9b572/go.mod h1:Bpd0/3mZuaj6Sj+PqrmIquiOKy397AKGThQPaGzNXAQ=
 github.com/consensys/gnark-crypto v0.4.1-0.20210426202927-39ac3d4b3f1f/go.mod h1:815PAHg3wvysy0SyIqanF8gZ0Y1wjk/hrDHD/iT88+Q=
 github.com/coreos/etcd v3.3.10+incompatible/go.mod h1:uF7uidLiAD3TWHmW31ZFd/JWoc32PjwdhPthX9715RE=
