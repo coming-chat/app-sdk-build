@@ -1,6 +1,15 @@
 # app-sdk-build
 Build all project into one sdk for app.
 
+- [app-sdk-build](#app-sdk-build)
+	- [已使用的包名](#已使用的包名)
+	- [如何使用 Github Private 仓库 module](#如何使用-github-private-仓库-module)
+		- [1）添加环境变量](#1添加环境变量)
+		- [2）配置访问权限](#2配置访问权限)
+	- [打包方式](#打包方式)
+		- [IOS](#ios)
+		- [Android](#android)
+
 ## 已使用的包名
 
 > gomobile 打包时只保留了 package 路径的最后的报名作为对应 package 名称，比如包 `comingchat/core/aptos` 打包结果的包名为 `aptos`。
@@ -30,7 +39,7 @@ wallet|wallet-sdk
 
 ## 如何使用 Github Private 仓库 module
 
-#### 1）添加环境变量
+### 1）添加环境变量
 ```sh
 export GOPRIVATE=github.com/coming-chat/go-defi-sdk
 ```
@@ -47,7 +56,7 @@ export GOPRIVATE=github.com/coming-chat
 export GOPRIVATE=github.com
 ```
 
-#### 2）配置访问权限
+### 2）配置访问权限
 
 有两种访问权限配置方式：ssh 和 账号密码
 
@@ -75,4 +84,25 @@ vi ~/.netrc
 machine github.com
 login your_github_username
 password your_github_access_token
+```
+
+## 打包方式
+
+首先使用 `go get` 安装指定版本的 go modules，在使用一下命令给 ios 或 android 打包。
+
+打包前需要确保 out 目录下有对应的仓库，以及对应仓库的写权限：
+```sh
+git clone git@github.com:coming-chat/wallet-swift-package.git Wallet-iOS
+git clone git@github.com:coming-chat/wallet-sdk-android.git
+```
+
+### IOS
+```sh
+make iosBuildAndPublish v=0.0.4-1661485378
+```
+
+### Android
+
+```sh
+make androidBuildAndPublish v=0.0.4-1661485378
 ```

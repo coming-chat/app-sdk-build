@@ -58,7 +58,7 @@ endif
 		&& git tag -f ${v} \
 		&& git push origin main tag ${v} --force
 
-buildAndPublicAndroidVersion:
+androidBuildAndPublish:
 ifndef v
 	@echo 发布 android 包需要指定一个版本，例如 make androidPublishVersion v=0.1.3
 	@exit 1
@@ -92,15 +92,14 @@ endif
 		&& git commit -m 'Auto Publish ${v}' -m "refer to `git rev-parse HEAD`" \
 		&& git tag -f ${v} \
 		&& git push origin main tag ${v} --force
-	@make iosPublishMain
 
-iosPublishMain:
-	@make iosCopySdk
-	@cd ${iosReposity} \
-		&& rm -rf Sources/Wallet.xcframework/ios-arm64_x86_64-simulator \
-		&& git add --all \
-		&& git commit -m 'Auto Publish Develop SDK' \
-		&& git push origin main
+iosBuildAndPublish:
+ifndef v
+	@echo 发布 iOS 包需要指定一个版本，例如 make iosBuildAndPublish v=1.0.1
+	@exit 1
+endif
+	@make buildAllSDKIOS
+	@make iosPublishVersion ${v}
 
 #### IOS build
 
