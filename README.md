@@ -9,6 +9,7 @@ Build all project into one sdk for app.
 	- [打包方式](#打包方式)
 		- [IOS](#ios)
 		- [Android](#android)
+	- [使用打包机](#使用打包机)
 
 ## 已使用的包名
 
@@ -106,3 +107,17 @@ make iosBuildAndPublish v=0.0.4-1661485378
 ```sh
 make androidBuildAndPublish v=0.0.4-1661485378
 ```
+
+## 使用打包机
+
+首先建议在本地环境更新 mod 版本，并把 `go.mod go.sum` 推送到仓库。
+
+在公司办公网络下，连接到 chainx_5G wifi，使用 ssh 登录到打包机，推荐使用 ssh 公钥登录：
+```sh
+ssh coming@192.168.3.84
+```
+
+1. 进入打包机后执行 `cdbuild` 跳转到此仓库根目录
+2. `git pull` 拉取 mod 更新
+3. 使用 `make iosBuildAndPublish v=yourversion` 或 `make androidBuildAndPublish v=yourversion` 打包即可
+
