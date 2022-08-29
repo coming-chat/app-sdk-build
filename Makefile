@@ -41,7 +41,11 @@ andZipName=wallet-SDK-android
 #### android build
 
 buildAllSDKAndroid:
+ifndef t
 	gomobile bind -ldflags "-s -w" -target=android/arm,android/arm64 -o=${outdir}/${andSdkName}.aar ${pkgAll}
+else
+	docker run --net=host -v ${PWD}:/module -v ${HOME}/.gitconfig:/root/.gitconfig -v ${HOME}/.ssh:/root/.ssh --entrypoint /bin/sh makeworld/gomobile-android -c 'export GOPRIVATE=github.com/coming-chat/go-defi-sdk && export GOPROXY=https://goproxy.cn && go mod download && gomobile bind -ldflags "-s -w" -target=android/arm,android/arm64 -o=${outdir}/${andSdkName}.aar ${pkgAll}'
+endif
 
 androidReposity=${outdir}/wallet-sdk-android
 androidPublicVersion:
@@ -63,7 +67,7 @@ ifndef v
 	@echo 发布 android 包需要指定一个版本，例如 make androidPublishVersion v=0.1.3
 	@exit 1
 endif
-	@make buildAllSDKAndroid
+	@make buildAllSDKAndroid ${t}
 	@make androidPublicVersion ${v}
 
 #### android build
