@@ -5,7 +5,7 @@ go 1.18
 require (
 	github.com/coming-chat/go-defi-sdk v0.1.3-0.20220826102110-934723f58310
 	github.com/coming-chat/go-red-packet v0.0.0-20220902030324-0579bb81a0a7
-	github.com/coming-chat/wallet-SDK v0.2.7-0.20220902030225-2255084c94a9
+	github.com/coming-chat/wallet-SDK v0.2.7-0.20220905092040-ab16fd98d96c
 	golang.org/x/mobile v0.0.0-20220722155234-aaac322e2105
 )
 
@@ -23,7 +23,7 @@ require (
 	github.com/btcsuite/btcd/btcutil v1.1.1 // indirect
 	github.com/btcsuite/btcd/chaincfg/chainhash v1.0.1 // indirect
 	github.com/centrifuge/go-substrate-rpc-client/v4 v4.0.0 // indirect
-	github.com/coming-chat/go-aptos v0.0.0-20220825104502-61728966084f // indirect
+	github.com/coming-chat/go-aptos v0.0.0-20220905032519-35edce9c5b6b // indirect
 	github.com/cosmos/go-bip39 v1.0.0 // indirect
 	github.com/deckarep/golang-set v1.8.0 // indirect
 	github.com/decred/base58 v1.0.3 // indirect
