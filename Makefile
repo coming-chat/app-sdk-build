@@ -14,6 +14,7 @@ pkgCosmos =  $(pkgWalletCore)/cosmos
 pkgDoge =  $(pkgWalletCore)/doge
 pkgSolana = ${pkgWalletCore}/solana
 pkgAptos = ${pkgWalletCore}/aptos
+pkgSui = ${pkgWalletCore}/sui
 pkgMSCheck = ${pkgWalletCore}/multi-signature-check
 
 moduleDefi=github.com/coming-chat/go-defi-sdk
@@ -31,7 +32,7 @@ moduleRedpacket=github.com/coming-chat/go-red-packet
 pkgRedpacket=${moduleRedpacket}/redpacket
 
 
-pkgAll = ${pkgBase} ${pkgWallet} ${pkgPolka} ${pkgBtc} ${pkgEth} ${pkgCosmos} ${pkgDoge} ${pkgSolana} ${pkgAptos} ${pkgMSCheck} ${pkgUtil} ${pkgExecution} ${pkgService} ${pkgTypes} ${pkgAptosClient} ${pkgRedpacket}
+pkgAll = ${pkgBase} ${pkgWallet} ${pkgPolka} ${pkgBtc} ${pkgEth} ${pkgCosmos} ${pkgDoge} ${pkgSolana} ${pkgAptos} ${pkgSui} ${pkgMSCheck} ${pkgUtil} ${pkgExecution} ${pkgService} ${pkgTypes} ${pkgAptosClient} ${pkgRedpacket}
 
 iosSdkName=Wallet
 andSdkName=wallet
@@ -106,4 +107,3 @@ endif
 	@make iosPublishVersion ${v}
 
 #### IOS build
-
