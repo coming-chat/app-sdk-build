@@ -3,7 +3,7 @@ module github.com/coming-chat/app-sdk-build
 go 1.18
 
 require (
-	github.com/coming-chat/go-defi-sdk v0.1.3-0.20220906073227-1755d2f45415
+	github.com/coming-chat/go-defi-sdk v0.1.3-0.20220915065026-c93334a722e8
 	github.com/coming-chat/go-red-packet v0.0.2-0.20220907035839-c81ac9c3269e
 	github.com/coming-chat/wallet-SDK v0.2.7-0.20220916023152-59415032dfd2
 	golang.org/x/mobile v0.0.0-20220722155234-aaac322e2105
