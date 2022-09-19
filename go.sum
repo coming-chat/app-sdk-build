@@ -135,6 +135,8 @@ github.com/coming-chat/go-defi-sdk v0.1.3-0.20220906073227-1755d2f45415 h1:PwNCv
 github.com/coming-chat/go-defi-sdk v0.1.3-0.20220906073227-1755d2f45415/go.mod h1:ZulEpUVoKsrnhKbbIwXdLm+hGAIjXENwW1gj3MQzb7A=
 github.com/coming-chat/go-defi-sdk v0.1.3-0.20220915065026-c93334a722e8 h1:s2LcsAQd8lVrLSkp9sMHrH3r9P3bLwQkwb8/H4AIo8E=
 github.com/coming-chat/go-defi-sdk v0.1.3-0.20220915065026-c93334a722e8/go.mod h1:Y5F/mca3otfCu77Ge6QbnxB9vRMkAa7QJXKddV5RbdY=
+github.com/coming-chat/go-defi-sdk v0.1.3-0.20220916030038-25974e66b817 h1:RVzhwO1RzuSbEkatXAmzCtmljpZZWBjetQlDZuC6boQ=
+github.com/coming-chat/go-defi-sdk v0.1.3-0.20220916030038-25974e66b817/go.mod h1:Y5F/mca3otfCu77Ge6QbnxB9vRMkAa7QJXKddV5RbdY=
 github.com/coming-chat/go-red-packet v0.0.2-0.20220907035839-c81ac9c3269e h1:w2MhPTfJHEYFzQAbJmSC/GCDATeb9olRWrAzqIeDX/E=
 github.com/coming-chat/go-red-packet v0.0.2-0.20220907035839-c81ac9c3269e/go.mod h1:v/Trjd1reLIOTPMLo6Wgl6Tq5fHLZ04nzaPXu3H2REY=
 github.com/coming-chat/lcs v0.0.0-20220829063658-0fa8432d2bdf h1:HrK16SFZnoxATieE+UHFSHZ6D2+XApv9g752MgvW7es=
