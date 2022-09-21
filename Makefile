@@ -15,7 +15,9 @@ pkgDoge =  $(pkgWalletCore)/doge
 pkgSolana = ${pkgWalletCore}/solana
 pkgAptos = ${pkgWalletCore}/aptos
 pkgSui = ${pkgWalletCore}/sui
+pkgStarcoin = ${pkgWalletCore}/starcoin
 pkgMSCheck = ${pkgWalletCore}/multi-signature-check
+pkgWalletSDK = ${pkgBase} ${pkgWallet} ${pkgPolka} ${pkgBtc} ${pkgEth} ${pkgCosmos} ${pkgDoge} ${pkgSolana} ${pkgAptos} ${pkgSui} ${pkgStarcoin} ${pkgMSCheck}
 
 moduleDefi=github.com/coming-chat/go-defi-sdk
 moduleCrossswap = ${moduleDefi}/core/crossswap
@@ -32,7 +34,7 @@ moduleRedpacket=github.com/coming-chat/go-red-packet
 pkgRedpacket=${moduleRedpacket}/redpacket
 
 
-pkgAll = ${pkgBase} ${pkgWallet} ${pkgPolka} ${pkgBtc} ${pkgEth} ${pkgCosmos} ${pkgDoge} ${pkgSolana} ${pkgAptos} ${pkgSui} ${pkgMSCheck} ${pkgUtil} ${pkgExecution} ${pkgService} ${pkgTypes} ${pkgAptosClient} ${pkgRedpacket}
+pkgAll = ${pkgWalletSDK} ${pkgUtil} ${pkgExecution} ${pkgService} ${pkgTypes} ${pkgAptosClient} ${pkgRedpacket}
 
 iosSdkName=Wallet
 andSdkName=wallet
