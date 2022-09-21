@@ -129,6 +129,8 @@ github.com/cncf/udpa/go v0.0.0-20191209042840-269d4d468f6f/go.mod h1:M8M6+tZqaGX
 github.com/cockroachdb/datadriven v0.0.0-20190809214429-80d97fb3cbaa/go.mod h1:zn76sxSg3SzpJ0PPJaLDCu+Bu0Lg3sKTORVIj19EIF8=
 github.com/coming-chat/go-aptos v0.0.0-20220909053157-0ad7b59e159e h1:PK9F16TLYrCBU4r2voGdcPA6Qd8aPq2XecVr1qZ3HSs=
 github.com/coming-chat/go-aptos v0.0.0-20220909053157-0ad7b59e159e/go.mod h1:HaGBPmQOlKzxkbGancRSX8wcwDxvj9Zs173CSla43vE=
+github.com/coming-chat/go-aptos v0.0.0-20220921070401-1b9e60a45628 h1:F5/x4o01OBAop6xlnqbTgY1lC5ZsZwxVjUTOgVdtv9A=
+github.com/coming-chat/go-aptos v0.0.0-20220921070401-1b9e60a45628/go.mod h1:HaGBPmQOlKzxkbGancRSX8wcwDxvj9Zs173CSla43vE=
 github.com/coming-chat/go-defi-sdk v0.1.3-0.20220823104935-b714b7bc11e8 h1:KrRhxpkbmpnaxTxAXdD7GaKh7Q0cHMJTk6i+EHaLu2g=
 github.com/coming-chat/go-defi-sdk v0.1.3-0.20220823104935-b714b7bc11e8/go.mod h1:8W1bGojjBZhmR1kI1Jk0oErT05lIKC+/NQaGLAvttrU=
 github.com/coming-chat/go-defi-sdk v0.1.3-0.20220906073227-1755d2f45415 h1:PwNCvaxtdz+MtE7BL6akGJsL+MHcJS3B+wT/UG8W3NM=
@@ -139,6 +141,8 @@ github.com/coming-chat/go-defi-sdk v0.1.3-0.20220916030038-25974e66b817 h1:RVzhw
 github.com/coming-chat/go-defi-sdk v0.1.3-0.20220916030038-25974e66b817/go.mod h1:Y5F/mca3otfCu77Ge6QbnxB9vRMkAa7QJXKddV5RbdY=
 github.com/coming-chat/go-red-packet v0.0.2-0.20220907035839-c81ac9c3269e h1:w2MhPTfJHEYFzQAbJmSC/GCDATeb9olRWrAzqIeDX/E=
 github.com/coming-chat/go-red-packet v0.0.2-0.20220907035839-c81ac9c3269e/go.mod h1:v/Trjd1reLIOTPMLo6Wgl6Tq5fHLZ04nzaPXu3H2REY=
+github.com/coming-chat/go-red-packet v0.0.3-0.20220921065356-05149a4c620e h1:evdbw/Ow5g77bOURTLUw2SKDfTdFZO+oELZtLDdfwY8=
+github.com/coming-chat/go-red-packet v0.0.3-0.20220921065356-05149a4c620e/go.mod h1:v/Trjd1reLIOTPMLo6Wgl6Tq5fHLZ04nzaPXu3H2REY=
 github.com/coming-chat/lcs v0.0.0-20220829063658-0fa8432d2bdf h1:HrK16SFZnoxATieE+UHFSHZ6D2+XApv9g752MgvW7es=
 github.com/coming-chat/lcs v0.0.0-20220829063658-0fa8432d2bdf/go.mod h1:CVVNl2j3TGYyUjuux+oYrRenPGvD+5UQbPGYp/zUews=
 github.com/coming-chat/wallet-SDK v0.2.7-0.20220909080337-1e90af495708 h1:lwyDUIhOenr3wePnYfDSdwqI+4QtWeI2FWqxB7W8WGE=
@@ -149,6 +153,8 @@ github.com/coming-chat/wallet-SDK v0.2.7-0.20220916023152-59415032dfd2 h1:vU5HRV
 github.com/coming-chat/wallet-SDK v0.2.7-0.20220916023152-59415032dfd2/go.mod h1:XcVrBp0NSCWBeTHbKKdmucPkfYwUlkvGOQxEydnzlgo=
 github.com/coming-chat/wallet-SDK v0.2.7-0.20220916085552-2ee81711a95e h1:3DRJRLpq9Cxrd3VlonNLvge2fF3VZdcfLkhC0ft67xk=
 github.com/coming-chat/wallet-SDK v0.2.7-0.20220916085552-2ee81711a95e/go.mod h1:1QhPTij3v1WqXhScNIpmO5MaWonCVlz7mO9SwZQUMR0=
+github.com/coming-chat/wallet-SDK v0.2.7-0.20220921073428-57436e12379d h1:fwSoU/oNggXI1cKojDmhx8t7KR+gVaKdMnkE9QNTj6E=
+github.com/coming-chat/wallet-SDK v0.2.7-0.20220921073428-57436e12379d/go.mod h1:5wrtQ5jX8iA9/mHnxsgOyYNgGkCG7rzuUiysS26PaxA=
 github.com/consensys/bavard v0.1.8-0.20210406032232-f3452dc9b572/go.mod h1:Bpd0/3mZuaj6Sj+PqrmIquiOKy397AKGThQPaGzNXAQ=
 github.com/consensys/gnark-crypto v0.4.1-0.20210426202927-39ac3d4b3f1f/go.mod h1:815PAHg3wvysy0SyIqanF8gZ0Y1wjk/hrDHD/iT88+Q=
 github.com/coreos/etcd v3.3.10+incompatible/go.mod h1:uF7uidLiAD3TWHmW31ZFd/JWoc32PjwdhPthX9715RE=
