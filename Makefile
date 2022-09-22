@@ -41,6 +41,9 @@ andSdkName=wallet
 iosZipName=wallet-SDK-ios
 andZipName=wallet-SDK-android
 
+BuilderHash=$(shell git rev-parse HEAD)
+BuilderRefer=https://github.com/coming-chat/app-sdk-build/commit/$(BuilderHash)
+
 #### android build
 
 buildAllSDKAndroid:
@@ -61,7 +64,7 @@ endif
 		&& cp ../${andSdkName}.aar library/libs \
 		&& cp ../${andSdkName}-sources.jar library/libs \
 		&& git add --all \
-		&& git commit -m 'Auto Publish ${v}' -m "refer to `git rev-parse HEAD`" \
+		&& git commit -m 'Auto Publish ${v}' -m "refer to ${BuilderRefer}" \
 		&& git tag -f ${v} \
 		&& git push origin main tag ${v} --force
 
@@ -96,7 +99,7 @@ endif
 	@make iosCopySdk
 	@cd ${iosReposity} \
 		&& git add --all \
-		&& git commit -m 'Auto Publish ${v}' -m "refer to `git rev-parse HEAD`" \
+		&& git commit -m 'Auto Publish ${v}' -m "refer to ${BuilderRefer}" \
 		&& git tag -f ${v} \
 		&& git push origin main tag ${v} --force
 
