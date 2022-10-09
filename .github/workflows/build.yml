@@ -10,8 +10,6 @@ jobs:
     runs-on: macos-latest
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
       - name: Set up Go
         uses: actions/setup-go@v3
         with:
@@ -28,6 +26,8 @@ jobs:
         run: |
           go get golang.org/x/mobile/cmd/gomobile
           go get golang.org/x/mobile/bind
+      - name: Checkout
+        uses: actions/checkout@v3
       - name: Set up iOS package repo
         run: |
           git clone git@github.com:coming-chat/wallet-swift-package.git Wallet-iOS
