@@ -20,8 +20,8 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git clone git@github.com:coming-chat/wallet-swift-package.git Wallet-iOS
-          git clone git@github.com:coming-chat/wallet-sdk-android.git
+          # git clone git@github.com:coming-chat/wallet-swift-package.git Wallet-iOS
+          # git clone git@github.com:coming-chat/wallet-sdk-android.git
       - name: Set up go mobile
         run: |
           go get golang.org/x/mobile/cmd/gomobile
