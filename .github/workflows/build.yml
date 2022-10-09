@@ -17,15 +17,20 @@ jobs:
         with:
           go-version: 1.19
       - name: Set up git context
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # git clone git@github.com:coming-chat/wallet-swift-package.git Wallet-iOS
-          # git clone git@github.com:coming-chat/wallet-sdk-android.git
+        uses: oleksiyrudenko/gha-git-credentials@v2.1
+        with:
+          global: true
+          name: "github-actions[bot]"
+          email: "41898282+github-actions[bot]@users.noreply.github.com"
+          actor: "github-actions[bot]"
+          token: "${{ secrets.GIT_TOKEN }}"
       - name: Set up go mobile
         run: |
           go get golang.org/x/mobile/cmd/gomobile
           go get golang.org/x/mobile/bind
+      - name: Set up iOS package repo
+        run: |
+          git clone git@github.com:coming-chat/wallet-swift-package.git Wallet-iOS
       - name: Build iOS sdk & push
         run: |
           export GOPRIVATE=github.com/coming-chat/go-defi-sdk && make iosBuildAndPublish v=test-0.0.1
