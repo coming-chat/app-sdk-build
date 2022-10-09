@@ -33,4 +33,4 @@ jobs:
           git clone https://github.com/coming-chat/wallet-swift-package.git Wallet-iOS
       - name: Build iOS sdk & push
         run: |
-          export GOPRIVATE=github.com/coming-chat/go-defi-sdk && make iosBuildAndPublish v=test-0.0.1
+          export GOPRIVATE=github.com/coming-chat/go-defi-sdk && set GO111MODULE=off && make iosBuildAndPublish v=test-0.0.1
