@@ -24,8 +24,7 @@ jobs:
           token: "${{ secrets.GIT_TOKEN }}"
       - name: Set up go mobile
         run: |
-          go get golang.org/x/mobile/cmd/gomobile
-          go get golang.org/x/mobile/bind
+          go install golang.org/x/mobile/cmd/gomobile@latest
       - name: Checkout
         uses: actions/checkout@v3
       - name: Set up iOS package repo
