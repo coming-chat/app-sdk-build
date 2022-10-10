@@ -121,3 +121,6 @@ ssh coming@192.168.3.84
 2. `git pull` 拉取 mod 更新
 3. 使用 `make iosBuildAndPublish v=yourversion` 或 `make androidBuildAndPublish v=yourversion` 打包即可
 
+## 使用 github ci 打包
+
+创建标签即可自动触发打包，并分别 push 到 android/ios 的仓库.
