@@ -31,8 +31,12 @@ jobs:
       - name: Set up iOS package repo
         run: |
           git clone https://github.com/coming-chat/wallet-swift-package.git ./out/Wallet-iOS
+      - name: Setup upterm session
+        uses: lhotari/action-upterm@v1
+        with:
+          limit-access-to-actor: true
+          limit-access-to-users: gkirito
       - name: Build iOS sdk & push
         run: |
-          git config --global url."git@github.com".insteadOf "https://github.com"
           git clone https://github.com/coming-chat/go-defi-sdk.git 
           export GOPRIVATE=github.com/coming-chat/go-defi-sdk && make iosBuildAndPublish v=test-0.0.1
