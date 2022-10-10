@@ -1,0 +1,73 @@
+name: Buil wallet sdk
+
+on:
+  push:
+    tags:
+      - "**"
+
+jobs:
+  build-ios:
+    name: build wallet sdk for iOS
+    runs-on: macos-latest
+
+    steps:
+      - name: Set up Go
+        uses: actions/setup-go@v3
+        with:
+          go-version: 1.19
+      - name: Set up git context
+        uses: de-vri-es/setup-git-credentials@v2
+        with:
+          credentials: ${{ secrets.GIT_TOKEN }}
+      - name: Set up go mobile
+        run: |
+          go install golang.org/x/mobile/cmd/gomobile@latest
+          gomobile init
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Set up git user & iOS package repo
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git clone https://github.com/coming-chat/wallet-swift-package.git ./out/Wallet-iOS
+      - name: Build iOS sdk & push
+        run: |
+          export GOPRIVATE=github.com/coming-chat/go-defi-sdk && make iosBuildAndPublish v=${{ github.ref_name }}
+
+  build-android:
+    name: build wallet sdk for Android
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: set up JDK 11
+        uses: actions/setup-java@v3
+        with:
+          java-version: "11"
+          distribution: "temurin"
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v2
+      - name: Setup Android NDK
+        run: |
+          sdkmanager "ndk;23.1.7779620"
+      - name: Set up Go
+        uses: actions/setup-go@v3
+        with:
+          go-version: 1.19
+      - name: Set up git context
+        uses: de-vri-es/setup-git-credentials@v2
+        with:
+          credentials: ${{ secrets.GIT_TOKEN }}
+      - name: Set up go mobile
+        run: |
+          go install golang.org/x/mobile/cmd/gomobile@latest
+          gomobile init
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Set up git user & Android package repo
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git clone https://github.com/coming-chat/wallet-sdk-android.git ./out/wallet-sdk-android
+      - name: Build Android sdk & push
+        run: |
+          export ANDROID_NDK_HOME=/usr/local/lib/android/sdk/ndk/23.1.7779620 && export GOPRIVATE=github.com/coming-chat/go-defi-sdk  && make androidBuildAndPublish v=${{ github.ref_name }}
