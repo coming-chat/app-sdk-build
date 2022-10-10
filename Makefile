@@ -73,8 +73,8 @@ ifndef v
 	@echo 发布 android 包需要指定一个版本，例如 make androidPublishVersion v=0.1.3
 	@exit 1
 endif
-	@make buildAllSDKAndroid ${t}
-	@make androidPublicVersion ${v}
+	@make buildAllSDKAndroid 
+	@make androidPublicVersion 
 
 #### android build
 
@@ -111,6 +111,6 @@ ifndef v
 	@exit 1
 endif
 	@make buildAllSDKIOS
-	@make iosPublishVersion ${v}
+	@make iosPublishVersion 
 
 #### IOS build
