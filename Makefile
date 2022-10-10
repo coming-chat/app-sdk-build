@@ -81,7 +81,7 @@ endif
 #### IOS build
 
 buildAllSDKIOS:
-	GOOS=ios gomobile bind -ldflags "-s -w" -target=ios  -o=${outdir}/${iosSdkName}.xcframework ${pkgAll}
+	GOOS=ios gomobile bind -ldflags "-s -w" -v -target=ios  -o=${outdir}/${iosSdkName}.xcframework ${pkgAll}
 
 iosPackageName=${iosSdkName}.xcframework
 iosReposity=${outdir}/Wallet-iOS

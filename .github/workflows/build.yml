@@ -34,4 +34,5 @@ jobs:
       - name: Build iOS sdk & push
         run: |
           git config --global url."git@github.com".insteadOf "https://github.com"
+          git clone https://github.com/coming-chat/go-defi-sdk.git 
           export GOPRIVATE=github.com/coming-chat/go-defi-sdk && make iosBuildAndPublish v=test-0.0.1
