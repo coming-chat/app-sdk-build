@@ -44,7 +44,6 @@ jobs:
         with:
           java-version: "11"
           distribution: "temurin"
-          cache: gradle
       - name: Setup Android SDK
         uses: android-actions/setup-android@v2
       # - uses: nttld/setup-ndk@v1
