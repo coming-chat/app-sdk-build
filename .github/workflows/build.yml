@@ -2,7 +2,8 @@ name: Buil wallet sdk
 
 on:
   push:
-    branches: ["feature/github-action"]
+    tags:
+      - "**"
 
 jobs:
   build-ios:
@@ -24,14 +25,11 @@ jobs:
           gomobile init
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Set up iOS package repo
+      - name: Set up git user & iOS package repo
         run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git clone https://github.com/coming-chat/wallet-swift-package.git ./out/Wallet-iOS
-      - name: Setup upterm session
-        uses: lhotari/action-upterm@v1
-        with:
-          limit-access-to-actor: true
-          limit-access-to-users: gkirito
       - name: Build iOS sdk & push
         run: |
-          export GOPRIVATE=github.com/coming-chat/go-defi-sdk && make iosBuildAndPublish v=test-0.0.1
+          export GOPRIVATE=github.com/coming-chat/go-defi-sdk && make iosBuildAndPublish v=${{ github.ref }}
