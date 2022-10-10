@@ -46,10 +46,9 @@ jobs:
           distribution: "temurin"
       - name: Setup Android SDK
         uses: android-actions/setup-android@v2
-      # - uses: nttld/setup-ndk@v1
-      #   id: setup-ndk
-      #   with:
-      #     ndk-version: r23.1
+      - name: Setup Android NDK
+        run: |
+          sdkmanager "ndk;23.1.7779620"
       - name: Set up Go
         uses: actions/setup-go@v3
         with:
@@ -69,11 +68,6 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git clone https://github.com/coming-chat/wallet-sdk-android.git ./out/wallet-sdk-android
-      - name: Setup upterm session
-        uses: lhotari/action-upterm@v1
-        with:
-          limit-access-to-actor: true
-          limit-access-to-users: gkirito
-      # - name: Build Android sdk & push
-      #   run: |
-      #     export ANDROID_HOME= && export ANDROID_NDK_HOME=${{ steps.setup-ndk.outputs.ndk-path }} && export GOPRIVATE=github.com/coming-chat/go-defi-sdk  && make androidBuildAndPublish v=${{ github.ref_name }} t=1
+      - name: Build Android sdk & push
+        run: |
+          export ANDROID_NDK_HOME=/usr/local/lib/android/sdk/ndk/23.1.7779620 && export GOPRIVATE=github.com/coming-chat/go-defi-sdk  && make androidBuildAndPublish v=${{ github.ref_name }}
