@@ -5,8 +5,8 @@ go 1.18
 require (
 	github.com/coming-chat/go-defi-sdk v0.1.3-0.20220922091138-1f11e059d11c
 	github.com/coming-chat/go-red-packet v0.0.3-0.20220926055117-e1579177ef29
-	github.com/coming-chat/wallet-SDK v0.2.7-0.20221013031918-18611ecdda10
-	golang.org/x/mobile v0.0.0-20220722155234-aaac322e2105
+	github.com/coming-chat/wallet-SDK v0.2.7-0.20221013075533-245dffd92ddb
+	golang.org/x/mobile v0.0.0-20221012134814-c746ac228303
 )
 
 replace github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.3-alpha.regen.1
