@@ -5,7 +5,7 @@ go 1.18
 require (
 	github.com/coming-chat/go-defi-sdk v0.1.3-0.20220922091138-1f11e059d11c
 	github.com/coming-chat/go-red-packet v0.0.3-0.20220926055117-e1579177ef29
-	github.com/coming-chat/wallet-SDK v0.2.7-0.20221013075533-245dffd92ddb
+	github.com/coming-chat/wallet-SDK v0.2.7-0.20221014063323-a25bfb60d7ba
 	golang.org/x/mobile v0.0.0-20221012134814-c746ac228303
 )
 
