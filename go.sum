@@ -137,6 +137,8 @@ github.com/coming-chat/lcs v0.0.0-20220829063658-0fa8432d2bdf h1:HrK16SFZnoxATie
 github.com/coming-chat/lcs v0.0.0-20220829063658-0fa8432d2bdf/go.mod h1:CVVNl2j3TGYyUjuux+oYrRenPGvD+5UQbPGYp/zUews=
 github.com/coming-chat/wallet-SDK v0.2.7-0.20221101105117-46e4ee4f403e h1:4lDDDEDmY2HBTAoZP0pP49CeM/5A/2ZGR2hRc5cRTEU=
 github.com/coming-chat/wallet-SDK v0.2.7-0.20221101105117-46e4ee4f403e/go.mod h1:TqhS8JjhKeWt935h2eooyO5vSNTYmIZ24N7kZbLoRiQ=
+github.com/coming-chat/wallet-SDK v0.2.7-0.20221102064154-819d5b30b17c h1:D8A6PYeRAQIipIirn53aOKU4hZQDOgt1CYeYIPf9MUU=
+github.com/coming-chat/wallet-SDK v0.2.7-0.20221102064154-819d5b30b17c/go.mod h1:TqhS8JjhKeWt935h2eooyO5vSNTYmIZ24N7kZbLoRiQ=
 github.com/consensys/bavard v0.1.8-0.20210406032232-f3452dc9b572/go.mod h1:Bpd0/3mZuaj6Sj+PqrmIquiOKy397AKGThQPaGzNXAQ=
 github.com/consensys/gnark-crypto v0.4.1-0.20210426202927-39ac3d4b3f1f/go.mod h1:815PAHg3wvysy0SyIqanF8gZ0Y1wjk/hrDHD/iT88+Q=
 github.com/coreos/etcd v3.3.10+incompatible/go.mod h1:uF7uidLiAD3TWHmW31ZFd/JWoc32PjwdhPthX9715RE=
