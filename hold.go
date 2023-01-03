@@ -3,6 +3,7 @@ package appsdkbuild
 
 import (
 	"github.com/coming-chat/go-defi-sdk/util"
+	"github.com/coming-chat/go-dmens-sdk/dmens"
 	"github.com/coming-chat/go-red-packet/redpacket"
 	"github.com/coming-chat/wallet-SDK/core/aptos"
 	_ "golang.org/x/mobile/bind"
@@ -11,11 +12,13 @@ import (
 var A int
 var B error
 var C string
+var DmensAction int
 
 func init() {
 	A = aptos.MaxGasAmount
 	B = util.ErrAddress
 	C = redpacket.AptosName
+	DmensAction = dmens.ACTION_POST
 }
 
 type T struct {
