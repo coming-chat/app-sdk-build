@@ -25,6 +25,7 @@ pkgExecution = ${moduleCrossswap}/execution
 pkgService = ${moduleCrossswap}/service
 pkgTypes = ${moduleCrossswap}/types
 pkgUtil = ${moduleDefi}/util
+pkgDefi = ${pkgUtil} ${pkgExecution} ${pkgService} ${pkgTypes}
 
 
 aptosModule=github.com/coming-chat/go-aptos
@@ -33,8 +34,10 @@ pkgAptosClient=${aptosModule}/aptosclient
 moduleRedpacket=github.com/coming-chat/go-red-packet
 pkgRedpacket=${moduleRedpacket}/redpacket
 
+moduleDmens=github.com/coming-chat/go-dmens-sdk
+pkgDmens=${moduleDmens}/dmens
 
-pkgAll = ${pkgWalletSDK} ${pkgUtil} ${pkgExecution} ${pkgService} ${pkgTypes} ${pkgAptosClient} ${pkgRedpacket}
+pkgAll = ${pkgWalletSDK} ${pkgDefi} ${pkgAptosClient} ${pkgRedpacket} ${pkgDmens}
 
 iosSdkName=Wallet
 andSdkName=wallet
