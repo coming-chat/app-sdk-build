@@ -135,12 +135,12 @@ github.com/coming-chat/go-dmens-sdk v0.0.0-20230117080709-46a74671ed25 h1:dFAyI7
 github.com/coming-chat/go-dmens-sdk v0.0.0-20230117080709-46a74671ed25/go.mod h1:j5+lXrAZIGYA6ex+ZdWjv219X/g/zBHUBi1q0Ca0s+w=
 github.com/coming-chat/go-red-packet v0.0.3-0.20220926055117-e1579177ef29 h1:n5lrDZkdpCkkj20AWtgymvgLzwPLE6epQYR86uTPRxc=
 github.com/coming-chat/go-red-packet v0.0.3-0.20220926055117-e1579177ef29/go.mod h1:gApxO9LPQyhRZBpSEVUiE8kvqCWtowWH5trxVQ6j+SE=
-github.com/coming-chat/go-sui v0.0.0-20230114101317-aa45ff3e8e17 h1:eC1l+g69Brx9n51heHijJKyNKl8X9UYLpQC/BbVoCeI=
-github.com/coming-chat/go-sui v0.0.0-20230114101317-aa45ff3e8e17/go.mod h1:IT0m3ZSiKSXgitJT6rMuMAlfNal4ounjryXWqoNgrd8=
+github.com/coming-chat/go-sui v0.0.0-20230210080543-2895454c0bbc h1:dqrO/atiKEtUwCWqN2nIISsy6Q/3ExdWyggf7wXykE0=
+github.com/coming-chat/go-sui v0.0.0-20230210080543-2895454c0bbc/go.mod h1:D3s+A1WjI5fg/htr/F1OR72+MGEFFtMoheufXfMDDPA=
 github.com/coming-chat/lcs v0.0.0-20220829063658-0fa8432d2bdf h1:HrK16SFZnoxATieE+UHFSHZ6D2+XApv9g752MgvW7es=
 github.com/coming-chat/lcs v0.0.0-20220829063658-0fa8432d2bdf/go.mod h1:CVVNl2j3TGYyUjuux+oYrRenPGvD+5UQbPGYp/zUews=
-github.com/coming-chat/wallet-SDK v0.2.7-0.20230201093146-f884b6cac1f6 h1:pE/pfH6j0TnZaZua07oiSGlYwfvPsMOasci9qsp2EeE=
-github.com/coming-chat/wallet-SDK v0.2.7-0.20230201093146-f884b6cac1f6/go.mod h1:JAE6aU6RbK5lD8wLnkt1KMPQJ8GSN2caGUbUjsu7dks=
+github.com/coming-chat/wallet-SDK v0.2.7-0.20230210090003-b7f6a0793200 h1:jZhPYjHFrnqx86F8T6Q4nLmrIWa/7v0Fm3Phs7sb9CI=
+github.com/coming-chat/wallet-SDK v0.2.7-0.20230210090003-b7f6a0793200/go.mod h1:aWfh4/JnDy3S00/Bpk6M9YGp0qLJFCkPs0FImOHWkdg=
 github.com/consensys/bavard v0.1.8-0.20210406032232-f3452dc9b572/go.mod h1:Bpd0/3mZuaj6Sj+PqrmIquiOKy397AKGThQPaGzNXAQ=
 github.com/consensys/gnark-crypto v0.4.1-0.20210426202927-39ac3d4b3f1f/go.mod h1:815PAHg3wvysy0SyIqanF8gZ0Y1wjk/hrDHD/iT88+Q=
 github.com/coreos/etcd v3.3.10+incompatible/go.mod h1:uF7uidLiAD3TWHmW31ZFd/JWoc32PjwdhPthX9715RE=
@@ -211,6 +211,8 @@ github.com/erikstmartin/go-testdb v0.0.0-20160219214506-8d10e4a1bae5/go.mod h1:a
 github.com/ethereum/go-ethereum v1.9.25/go.mod h1:vMkFiYLHI4tgPw4k2j4MHKoovchFE8plZ0M9VMk4/oM=
 github.com/ethereum/go-ethereum v1.10.18 h1:hLEd5M+UD0GJWPaROiYMRgZXl6bi5YwoTJSthsx5CZw=
 github.com/ethereum/go-ethereum v1.10.18/go.mod h1:RD3NhcSBjZpj3k+SnQq24wBrmnmie78P5R/P62iNBD8=
+github.com/fardream/go-bcs v0.2.1 h1:ffW/0Jr0b2WXLNPF8AX6wWI9ETVE4+aXkv2aIXVViwE=
+github.com/fardream/go-bcs v0.2.1/go.mod h1:UsoxhIoe2GsVexX0s5NDLIChxeb/JUbjw7IWzzgF3Xk=
 github.com/fatih/color v1.3.0/go.mod h1:Zm6kSWBoL9eyXnKyktHP6abPY2pDugNf5KwzbycvMj4=
 github.com/fatih/color v1.7.0/go.mod h1:Zm6kSWBoL9eyXnKyktHP6abPY2pDugNf5KwzbycvMj4=
 github.com/fjl/gencodec v0.0.0-20220412091415-8bb9e558978c/go.mod h1:AzA8Lj6YtixmJWL+wkKoBGsLWy9gFrAzi4g+5bCKwpY=
