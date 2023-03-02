@@ -135,8 +135,8 @@ github.com/coming-chat/go-dmens-sdk v0.0.0-20230210091256-af9ee2580dd7 h1:ZJ2n0j
 github.com/coming-chat/go-dmens-sdk v0.0.0-20230210091256-af9ee2580dd7/go.mod h1:YPI4wKgN+7o09CzJa3bA88xvom7GWjxxB95PWj9VoT0=
 github.com/coming-chat/go-red-packet v0.0.3-0.20220926055117-e1579177ef29 h1:n5lrDZkdpCkkj20AWtgymvgLzwPLE6epQYR86uTPRxc=
 github.com/coming-chat/go-red-packet v0.0.3-0.20220926055117-e1579177ef29/go.mod h1:gApxO9LPQyhRZBpSEVUiE8kvqCWtowWH5trxVQ6j+SE=
-github.com/coming-chat/go-sui v0.0.0-20230223034339-8c7b35690e6d h1:16RUvUNTxEGyZaeJqC1OtuiC90P55RUsquJ59An6YvY=
-github.com/coming-chat/go-sui v0.0.0-20230223034339-8c7b35690e6d/go.mod h1:D3s+A1WjI5fg/htr/F1OR72+MGEFFtMoheufXfMDDPA=
+github.com/coming-chat/go-sui v0.0.0-20230302033519-1628554cea3a h1:ybdNeFykffmx3zrCM+hSHlkPlla7clussS+Gm9me1CY=
+github.com/coming-chat/go-sui v0.0.0-20230302033519-1628554cea3a/go.mod h1:D3s+A1WjI5fg/htr/F1OR72+MGEFFtMoheufXfMDDPA=
 github.com/coming-chat/lcs v0.0.0-20220829063658-0fa8432d2bdf h1:HrK16SFZnoxATieE+UHFSHZ6D2+XApv9g752MgvW7es=
 github.com/coming-chat/lcs v0.0.0-20220829063658-0fa8432d2bdf/go.mod h1:CVVNl2j3TGYyUjuux+oYrRenPGvD+5UQbPGYp/zUews=
 github.com/coming-chat/wallet-SDK v0.2.7-0.20230223034542-c48952df2cb1 h1:Qj7ChsnYBj5Egh/azaX/CMBW2/rsLGhgO3SEuosazuQ=

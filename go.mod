@@ -23,7 +23,7 @@ require (
 	github.com/btcsuite/btcd/chaincfg/chainhash v1.0.1 // indirect
 	github.com/centrifuge/go-substrate-rpc-client/v4 v4.0.0 // indirect
 	github.com/coming-chat/go-aptos v0.0.0-20221109075633-2804a4483f45 // indirect
-	github.com/coming-chat/go-sui v0.0.0-20230223034339-8c7b35690e6d // indirect
+	github.com/coming-chat/go-sui v0.0.0-20230302033519-1628554cea3a // indirect
 	github.com/coming-chat/lcs v0.0.0-20220829063658-0fa8432d2bdf // indirect
 	github.com/cosmos/go-bip39 v1.0.0 // indirect
 	github.com/deckarep/golang-set v1.8.0 // indirect
