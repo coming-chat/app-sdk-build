@@ -135,6 +135,8 @@ github.com/coming-chat/go-dmens-sdk v0.0.0-20230404094345-e3f37fe911ca h1:7Lf2rs
 github.com/coming-chat/go-dmens-sdk v0.0.0-20230404094345-e3f37fe911ca/go.mod h1:SNErS4dC6JhA7E2zuLrhdbnpWjxChXrpCsLEe5HaVCs=
 github.com/coming-chat/go-red-packet v0.0.4 h1:rq9YmiCaRBF6DhbsRD+vzIUiYLOhjK64UsJUoiAGqxk=
 github.com/coming-chat/go-red-packet v0.0.4/go.mod h1:tpAMbJOXA+rFGU5YyL5229175R6QPfmGxIOq80dFVBE=
+github.com/coming-chat/go-red-packet v0.0.5-0.20230407084322-faca5e494fa3 h1:g3N0E8iA9Tv7/x+zu5akSfe5jVQOohdy21fQmT5WbS0=
+github.com/coming-chat/go-red-packet v0.0.5-0.20230407084322-faca5e494fa3/go.mod h1:tpAMbJOXA+rFGU5YyL5229175R6QPfmGxIOq80dFVBE=
 github.com/coming-chat/go-sui v0.0.0-20230406073331-ade1920055fa h1:Lv15ebcm/hCViuoqTPs3xtKjKz9TvUrgMA2rTmFDF/Y=
 github.com/coming-chat/go-sui v0.0.0-20230406073331-ade1920055fa/go.mod h1:s5DRgrUeaPfWULPP3+OcUaBdRIVkq7W1PrQKNr7D5ag=
 github.com/coming-chat/lcs v0.0.0-20220829063658-0fa8432d2bdf h1:HrK16SFZnoxATieE+UHFSHZ6D2+XApv9g752MgvW7es=
