@@ -6,7 +6,7 @@ require (
 	github.com/coming-chat/go-defi-sdk v0.1.8-0.20221129031529-76d0fadb9c2c
 	github.com/coming-chat/go-dmens-sdk v0.0.0-20230419103652-918e43a8eb84
 	github.com/coming-chat/go-red-packet v0.0.5-0.20230419090940-ecc2d57a0151
-	github.com/coming-chat/wallet-SDK v0.2.7-0.20230420025020-b2e04ce7e4fc
+	github.com/coming-chat/wallet-SDK v0.2.7-0.20230421031346-9c8ca48f8454
 	golang.org/x/mobile v0.0.0-20221012134814-c746ac228303
 )
 
