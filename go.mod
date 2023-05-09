@@ -6,7 +6,7 @@ require (
 	github.com/coming-chat/go-defi-sdk v0.1.8-0.20221129031529-76d0fadb9c2c
 	github.com/coming-chat/go-dmens-sdk v0.0.0-20230509085125-cc463c858f06
 	github.com/coming-chat/go-red-packet v0.0.5-0.20230508121107-4c3d54a8b248
-	github.com/coming-chat/wallet-SDK v0.2.7-0.20230509084023-dd6a15680a2b
+	github.com/coming-chat/wallet-SDK v0.2.7-0.20230509094259-73090b2c8a26
 	golang.org/x/mobile v0.0.0-20221012134814-c746ac228303
 )
 
@@ -23,7 +23,7 @@ require (
 	github.com/btcsuite/btcd/chaincfg/chainhash v1.0.1 // indirect
 	github.com/centrifuge/go-substrate-rpc-client/v4 v4.0.0 // indirect
 	github.com/coming-chat/go-aptos v0.0.0-20230225124212-15dba2e4eeb3 // indirect
-	github.com/coming-chat/go-sui v0.0.0-20230508102747-0f751dbeeeb3 // indirect
+	github.com/coming-chat/go-sui v0.0.0-20230509093929-dd510f09b404 // indirect
 	github.com/coming-chat/lcs v0.0.0-20220829063658-0fa8432d2bdf // indirect
 	github.com/cosmos/go-bip39 v1.0.0 // indirect
 	github.com/deckarep/golang-set v1.8.0 // indirect
