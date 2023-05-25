@@ -6,7 +6,7 @@ require (
 	github.com/coming-chat/go-defi-sdk v0.1.8-0.20221129031529-76d0fadb9c2c
 	github.com/coming-chat/go-dmens-sdk v0.0.0-20230516092847-6bcea28ff637
 	github.com/coming-chat/go-red-packet v0.0.5-0.20230516114753-efd73cf6593c
-	github.com/coming-chat/wallet-SDK v0.2.7-0.20230524040234-3f8188ee83e5
+	github.com/coming-chat/wallet-SDK v0.2.7-0.20230525021924-31cab247b86b
 	golang.org/x/mobile v0.0.0-20221012134814-c746ac228303
 )
 
@@ -17,7 +17,7 @@ replace github.com/99designs/keyring => github.com/coming-chat/keyring v1.3.0
 require (
 	github.com/ChainSafe/go-schnorrkel v0.0.0-20210318173838-ccb5cd955283 // indirect
 	github.com/StackExchange/wmi v0.0.0-20190523213315-cbe66965904d // indirect
-	github.com/btcsuite/btcd v0.22.1 // indirect
+	github.com/btcsuite/btcd v0.22.3 // indirect
 	github.com/btcsuite/btcd/btcec/v2 v2.2.0 // indirect
 	github.com/btcsuite/btcd/btcutil v1.1.1 // indirect
 	github.com/btcsuite/btcd/chaincfg/chainhash v1.0.1 // indirect
@@ -31,7 +31,7 @@ require (
 	github.com/decred/base58 v1.0.3 // indirect
 	github.com/decred/dcrd/crypto/blake256 v1.0.0 // indirect
 	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.0.1 // indirect
-	github.com/ethereum/go-ethereum v1.10.18 // indirect
+	github.com/ethereum/go-ethereum v1.10.22 // indirect
 	github.com/fardream/go-bcs v0.2.1 // indirect
 	github.com/go-kratos/kratos v0.5.0 // indirect
 	github.com/go-ole/go-ole v1.2.4 // indirect
@@ -58,7 +58,7 @@ require (
 	golang.org/x/mod v0.6.0-dev.0.20211013180041-c96bc1413d57 // indirect
 	golang.org/x/sys v0.8.0 // indirect
 	golang.org/x/tools v0.1.8-0.20211029000441-d6a9af8af023 // indirect
-	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
+	golang.org/x/xerrors v0.0.0-20220517211312-f3a8303e98df // indirect
 	google.golang.org/protobuf v1.27.1 // indirect
 	gopkg.in/natefinch/npipe.v2 v2.0.0-20160621034901-c1b8fa8bdcce // indirect
 )
