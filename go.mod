@@ -6,7 +6,7 @@ require (
 	github.com/coming-chat/go-defi-sdk v0.1.8-0.20221129031529-76d0fadb9c2c
 	github.com/coming-chat/go-dmens-sdk v0.0.0-20230516092847-6bcea28ff637
 	github.com/coming-chat/go-red-packet v0.0.5-0.20230516114753-efd73cf6593c
-	github.com/coming-chat/wallet-SDK v0.2.7-0.20230525025522-14bc71bf845b
+	github.com/coming-chat/wallet-SDK v0.2.7-0.20230529094103-dde8e4decc38
 	golang.org/x/mobile v0.0.0-20221012134814-c746ac228303
 )
 
@@ -17,7 +17,7 @@ replace github.com/99designs/keyring => github.com/coming-chat/keyring v1.3.0
 require (
 	github.com/ChainSafe/go-schnorrkel v0.0.0-20210318173838-ccb5cd955283 // indirect
 	github.com/StackExchange/wmi v0.0.0-20190523213315-cbe66965904d // indirect
-	github.com/btcsuite/btcd v0.22.3 // indirect
+	github.com/btcsuite/btcd v0.23.4 // indirect
 	github.com/btcsuite/btcd/btcec/v2 v2.2.0 // indirect
 	github.com/btcsuite/btcd/btcutil v1.1.1 // indirect
 	github.com/btcsuite/btcd/chaincfg/chainhash v1.0.1 // indirect
