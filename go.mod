@@ -6,7 +6,7 @@ require (
 	github.com/coming-chat/go-defi-sdk v0.1.8-0.20221129031529-76d0fadb9c2c
 	github.com/coming-chat/go-dmens-sdk v0.0.0-20230530070140-f55af127d75d
 	github.com/coming-chat/go-red-packet v0.0.5-0.20230530070307-c05ad37efbc4
-	github.com/coming-chat/wallet-SDK v0.2.7-0.20230606040147-725ca3b8ac29
+	github.com/coming-chat/wallet-SDK v0.2.7-0.20230625064006-b616e0a9d197
 	golang.org/x/mobile v0.0.0-20230427221453-e8d11dd0ba41
 )
 
@@ -31,7 +31,7 @@ require (
 	github.com/decred/base58 v1.0.3 // indirect
 	github.com/decred/dcrd/crypto/blake256 v1.0.0 // indirect
 	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.1.0 // indirect
-	github.com/ethereum/go-ethereum v1.10.22 // indirect
+	github.com/ethereum/go-ethereum v1.10.26 // indirect
 	github.com/fardream/go-bcs v0.2.1 // indirect
 	github.com/go-kratos/kratos v0.5.0 // indirect
 	github.com/go-ole/go-ole v1.2.4 // indirect

@@ -100,8 +100,8 @@ github.com/coming-chat/go-sui/v2 v2.0.1-0.20230516111905-5bd5750a03a1 h1:E172o4z
 github.com/coming-chat/go-sui/v2 v2.0.1-0.20230516111905-5bd5750a03a1/go.mod h1:0/cgsi6HcHEfPFC05mY/ovzWuxxpmKxiY0NIEFgMP4g=
 github.com/coming-chat/lcs v0.0.0-20220829063658-0fa8432d2bdf h1:HrK16SFZnoxATieE+UHFSHZ6D2+XApv9g752MgvW7es=
 github.com/coming-chat/lcs v0.0.0-20220829063658-0fa8432d2bdf/go.mod h1:CVVNl2j3TGYyUjuux+oYrRenPGvD+5UQbPGYp/zUews=
-github.com/coming-chat/wallet-SDK v0.2.7-0.20230606040147-725ca3b8ac29 h1:mfhjhRnKfQU0XabK9CW8urFJo9IGtE1sAyhTrPEBozY=
-github.com/coming-chat/wallet-SDK v0.2.7-0.20230606040147-725ca3b8ac29/go.mod h1:IWegj1yN5IZnloFItYUEc8fRWnl9322mguLP1jvvp08=
+github.com/coming-chat/wallet-SDK v0.2.7-0.20230625064006-b616e0a9d197 h1:c79Uqwsq+5AydpFzcwetDayaajgPXtxnfnarC/93xr4=
+github.com/coming-chat/wallet-SDK v0.2.7-0.20230625064006-b616e0a9d197/go.mod h1:myTyqYA7Anf/pxEjittUyzHahQZ4NkUSwTOMuxZeeyk=
 github.com/coreos/etcd v3.3.10+incompatible/go.mod h1:uF7uidLiAD3TWHmW31ZFd/JWoc32PjwdhPthX9715RE=
 github.com/coreos/go-etcd v2.0.0+incompatible/go.mod h1:Jez6KQU2B/sWsbdaef3ED8NzMklzPG4d5KIOhIy30Tk=
 github.com/coreos/go-semver v0.2.0/go.mod h1:nnelYz7RCh+5ahJtPPxZlU+153eP4D4r3EedlOD2RNk=
@@ -158,8 +158,8 @@ github.com/envoyproxy/go-control-plane v0.9.4/go.mod h1:6rpuAdCZL397s3pYoYcLgu1m
 github.com/envoyproxy/protoc-gen-validate v0.1.0/go.mod h1:iSmxcyjqTsJpI2R4NaDN7+kN2VEUnK/pcBlmesArF7c=
 github.com/erikstmartin/go-testdb v0.0.0-20160219214506-8d10e4a1bae5/go.mod h1:a2zkGnVExMxdzMo3M0Hi/3sEU+cWnZpSni0O6/Yb/P0=
 github.com/ethereum/go-ethereum v1.9.25/go.mod h1:vMkFiYLHI4tgPw4k2j4MHKoovchFE8plZ0M9VMk4/oM=
-github.com/ethereum/go-ethereum v1.10.22 h1:HbEgsDo1YTGIf4KB/NNpn+XH+PiNJXUZ9ksRxiqWyMc=
-github.com/ethereum/go-ethereum v1.10.22/go.mod h1:EYFyF19u3ezGLD4RqOkLq+ZCXzYbLoNDdZlMt7kyKFg=
+github.com/ethereum/go-ethereum v1.10.26 h1:i/7d9RBBwiXCEuyduBQzJw/mKmnvzsN14jqBmytw72s=
+github.com/ethereum/go-ethereum v1.10.26/go.mod h1:EYFyF19u3ezGLD4RqOkLq+ZCXzYbLoNDdZlMt7kyKFg=
 github.com/fardream/go-bcs v0.2.1 h1:ffW/0Jr0b2WXLNPF8AX6wWI9ETVE4+aXkv2aIXVViwE=
 github.com/fardream/go-bcs v0.2.1/go.mod h1:UsoxhIoe2GsVexX0s5NDLIChxeb/JUbjw7IWzzgF3Xk=
 github.com/fatih/color v1.3.0/go.mod h1:Zm6kSWBoL9eyXnKyktHP6abPY2pDugNf5KwzbycvMj4=

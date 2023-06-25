@@ -16,8 +16,9 @@ pkgSolana = ${pkgWalletCore}/solana
 pkgAptos = ${pkgWalletCore}/aptos
 pkgSui = ${pkgWalletCore}/sui
 pkgStarcoin = ${pkgWalletCore}/starcoin
+pkgStarknet = ${pkgWalletCore}/starknet
 pkgMSCheck = ${pkgWalletCore}/multi-signature-check
-pkgWalletSDK = ${pkgBase} ${pkgWallet} ${pkgPolka} ${pkgBtc} ${pkgEth} ${pkgCosmos} ${pkgDoge} ${pkgSolana} ${pkgAptos} ${pkgSui} ${pkgStarcoin} ${pkgMSCheck}
+pkgWalletSDK = ${pkgBase} ${pkgWallet} ${pkgPolka} ${pkgBtc} ${pkgEth} ${pkgCosmos} ${pkgDoge} ${pkgSolana} ${pkgAptos} ${pkgSui} ${pkgStarcoin} ${pkgStarknet} ${pkgMSCheck}
 
 moduleDefi=github.com/coming-chat/go-defi-sdk
 moduleCrossswap = ${moduleDefi}/core/crossswap
