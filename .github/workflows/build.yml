@@ -14,14 +14,11 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v3
         with:
-          go-version: 1.19
+          go-version: 1.20
       - name: Set up git context
         uses: de-vri-es/setup-git-credentials@v2
         with:
           credentials: ${{ secrets.GIT_TOKEN }}
-      - name: Tidy go mod
-        run: |
-          go mod tidy
       - name: Set up go mobile
         run: |
           go install golang.org/x/mobile/cmd/gomobile@latest
@@ -55,14 +52,11 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v3
         with:
-          go-version: 1.19
+          go-version: 1.20
       - name: Set up git context
         uses: de-vri-es/setup-git-credentials@v2
         with:
           credentials: ${{ secrets.GIT_TOKEN }}
-      - name: Tidy go mod
-        run: |
-          go mod tidy
       - name: Set up go mobile
         run: |
           go install golang.org/x/mobile/cmd/gomobile@latest
