@@ -67,7 +67,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git clone https://github.com/coming-chat/wallet-sdk-android.git ./out/wallet-sdk-android
+          git clone -b main --depth=1 https://github.com/coming-chat/wallet-sdk-android.git ./out/wallet-sdk-android
       - name: Build Android sdk & push
         run: |
           export ANDROID_NDK_HOME=/usr/local/lib/android/sdk/ndk/23.1.7779620 && export GOPRIVATE=github.com/coming-chat/go-defi-sdk  && make androidBuildAndPublish v=${{ github.ref_name }}
