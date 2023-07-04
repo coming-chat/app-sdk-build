@@ -106,8 +106,8 @@ github.com/coming-chat/go-sui/v2 v2.0.1-0.20230518103936-ac853f583e8f h1:KPOGMdQ
 github.com/coming-chat/go-sui/v2 v2.0.1-0.20230518103936-ac853f583e8f/go.mod h1:0/cgsi6HcHEfPFC05mY/ovzWuxxpmKxiY0NIEFgMP4g=
 github.com/coming-chat/lcs v0.0.0-20220829063658-0fa8432d2bdf h1:HrK16SFZnoxATieE+UHFSHZ6D2+XApv9g752MgvW7es=
 github.com/coming-chat/lcs v0.0.0-20220829063658-0fa8432d2bdf/go.mod h1:CVVNl2j3TGYyUjuux+oYrRenPGvD+5UQbPGYp/zUews=
-github.com/coming-chat/wallet-SDK v0.2.7-0.20230704105111-604f994814cc h1:6O+VbJtyhgQmt18ZSHySYQL0fCDDx+LNaJCg9yF4fas=
-github.com/coming-chat/wallet-SDK v0.2.7-0.20230704105111-604f994814cc/go.mod h1:6A/AUziV4reR65oDdPO1jSPXpmSwu9pWCMjpwZuMmO8=
+github.com/coming-chat/wallet-SDK v0.2.7-0.20230704110248-91734d3fadf9 h1:nJyixWeq3x/Pp2gDg1dFkYQ2lT2ZOGDFvveJzuaS2ZQ=
+github.com/coming-chat/wallet-SDK v0.2.7-0.20230704110248-91734d3fadf9/go.mod h1:6A/AUziV4reR65oDdPO1jSPXpmSwu9pWCMjpwZuMmO8=
 github.com/coreos/etcd v3.3.10+incompatible/go.mod h1:uF7uidLiAD3TWHmW31ZFd/JWoc32PjwdhPthX9715RE=
 github.com/coreos/go-etcd v2.0.0+incompatible/go.mod h1:Jez6KQU2B/sWsbdaef3ED8NzMklzPG4d5KIOhIy30Tk=
 github.com/coreos/go-semver v0.2.0/go.mod h1:nnelYz7RCh+5ahJtPPxZlU+153eP4D4r3EedlOD2RNk=
@@ -569,8 +569,8 @@ golang.org/x/lint v0.0.0-20190313153728-d0100b6bd8b3/go.mod h1:6SW0HCj/g11FgYtHl
 golang.org/x/lint v0.0.0-20190930215403-16217165b5de/go.mod h1:6SW0HCj/g11FgYtHlgUYUwCkIfeOF89ocIRzGO/8vkc=
 golang.org/x/mobile v0.0.0-20190312151609-d3739f865fa6/go.mod h1:z+o9i4GpDbdi3rU15maQ/Ox0txvL9dWGYEHz965HBQE=
 golang.org/x/mobile v0.0.0-20200801112145-973feb4309de/go.mod h1:skQtrUTUwhdJvXM/2KKJzY8pDgNr9I/FOMqDVRPBUS4=
-golang.org/x/mobile v0.0.0-20230427221453-e8d11dd0ba41 h1:539vykMVJsmdiucRtMmdeLLZaTVhWhaAHFcPabj2lws=
-golang.org/x/mobile v0.0.0-20230427221453-e8d11dd0ba41/go.mod h1:aAjjkJNdrh3PMckS4B10TGS2nag27cbKR1y2BpUxsiY=
+golang.org/x/mobile v0.0.0-20230531173138-3c911d8e3eda h1:O+EUvnBNPwI4eLthn8W5K+cS8zQZfgTABPLNm6Bna34=
+golang.org/x/mobile v0.0.0-20230531173138-3c911d8e3eda/go.mod h1:aAjjkJNdrh3PMckS4B10TGS2nag27cbKR1y2BpUxsiY=
 golang.org/x/mod v0.0.0-20190513183733-4bf6d317e70e/go.mod h1:mXi4GBBbnImb6dmsKGUJ2LatrhH/nqhxcFungHvyanc=
 golang.org/x/mod v0.1.0/go.mod h1:0QHyrYULN0/3qlju5TqG8bIK38QM8yzMo5ekMj3DlcY=
 golang.org/x/mod v0.1.1-0.20191105210325-c90efee705ee/go.mod h1:QqPTAvyqsEbceGzBzNggFXnrqF1CaUcvgkdR5Ot7KZg=
