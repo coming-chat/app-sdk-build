@@ -52,7 +52,7 @@ BuilderRefer=https://github.com/coming-chat/app-sdk-build/commit/$(BuilderHash)
 
 buildAllSDKAndroid:
 ifndef t
-	gomobile bind -ldflags "-s -w" -v -target=android/arm,android/arm64 -o=${outdir}/${andSdkName}.aar ${pkgAll}
+	gomobile bind -ldflags "-s -w" -v -target=android/arm,android/arm64,android/amd64 -o=${outdir}/${andSdkName}.aar ${pkgAll}
 else
 	docker run --net=host  ${PWD}:/module -v ${HOME}/.gitconfig:/root/.gitconfig -v ${HOME}/.ssh:/root/.ssh --entrypoint /bin/sh makeworld/gomobile-android -c 'export GOPRIVATE=github.com/coming-chat/go-defi-sdk && export GOPROXY=https://goproxy.cn && go mod download && gomobile bind -ldflags "-s -w" -target=android/arm,android/arm64 -o=${outdir}/${andSdkName}.aar ${pkgAll}'
 endif
