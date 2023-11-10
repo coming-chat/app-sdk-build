@@ -96,8 +96,8 @@ github.com/cockroachdb/pebble v0.0.0-20230209160836-829675f94811 h1:ytcWPaNPhNoG
 github.com/cockroachdb/redact v1.1.3 h1:AKZds10rFSIj7qADf0g46UixK8NNLwWTNdCIGS5wfSQ=
 github.com/coming-chat/go-aptos v0.0.0-20230626110140-8331b0e6cdd4 h1:q7Nw6EKABaQ1F9GpybXL58fmpD9ZupRlitP/XZjrOhc=
 github.com/coming-chat/go-aptos v0.0.0-20230626110140-8331b0e6cdd4/go.mod h1:byZxzNOokbO5/mGYTztPhKMUwBnFjn0Tj0bpieocv6I=
-github.com/coming-chat/go-defi-sdk v0.1.8-0.20221129031529-76d0fadb9c2c h1:quxAo+G+ClH/PTK7KZUg0+1LSJI9CqkyeJpWC0b9Brs=
-github.com/coming-chat/go-defi-sdk v0.1.8-0.20221129031529-76d0fadb9c2c/go.mod h1:gCKmSqLqgSz72r6gno5gDuy96wlovIY9OoA8K75xNRQ=
+github.com/coming-chat/go-defi-sdk v0.1.8-0.20231031134916-7ec2d39b4d7e h1:7h1h7nWg+QUcMXlb7IUwbNjyr8/w7Hrr/TkxJa9PINE=
+github.com/coming-chat/go-defi-sdk v0.1.8-0.20231031134916-7ec2d39b4d7e/go.mod h1:IaF8tXPQpPhVBPaTBMM43URbbXHCCEG2PaKO4O8miQ8=
 github.com/coming-chat/go-dmens-sdk v0.0.0-20230530070140-f55af127d75d h1:9j9NZM0DOKc/Cx0l4wKK5aklQlhL0KIBNfAup2HxByU=
 github.com/coming-chat/go-dmens-sdk v0.0.0-20230530070140-f55af127d75d/go.mod h1:q46ibbY7KWpcXVb6W/CyarHkS/vS60jhOgre+QAo21g=
 github.com/coming-chat/go-red-packet v0.0.5-0.20230530070307-c05ad37efbc4 h1:KfY3GUKsUAgpFd7AblT/AEkXlQUqxZIwT4SlcJGxof0=
