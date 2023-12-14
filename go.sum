@@ -98,8 +98,8 @@ github.com/coming-chat/go-aptos v0.0.0-20230626110140-8331b0e6cdd4 h1:q7Nw6EKABa
 github.com/coming-chat/go-aptos v0.0.0-20230626110140-8331b0e6cdd4/go.mod h1:byZxzNOokbO5/mGYTztPhKMUwBnFjn0Tj0bpieocv6I=
 github.com/coming-chat/go-defi-sdk v0.1.8-0.20231031134916-7ec2d39b4d7e h1:7h1h7nWg+QUcMXlb7IUwbNjyr8/w7Hrr/TkxJa9PINE=
 github.com/coming-chat/go-defi-sdk v0.1.8-0.20231031134916-7ec2d39b4d7e/go.mod h1:IaF8tXPQpPhVBPaTBMM43URbbXHCCEG2PaKO4O8miQ8=
-github.com/coming-chat/go-dmens-sdk v0.0.0-20231206090642-7671e79a5d88 h1:Mr4KJuOoX3KSk5pt00TJkAJnoZMfyrWdOg0n4bK0nDM=
-github.com/coming-chat/go-dmens-sdk v0.0.0-20231206090642-7671e79a5d88/go.mod h1:lklbHcR3TYcgBh+XlLexlOnOgU5lMblG+SMaDBLLCW8=
+github.com/coming-chat/go-dmens-sdk v0.0.0-20231214061147-a77f9103ce94 h1:tc1yCYHlKlv063IV3NNMLCKCGwBuTjuU4aE0X0JhwYU=
+github.com/coming-chat/go-dmens-sdk v0.0.0-20231214061147-a77f9103ce94/go.mod h1:lklbHcR3TYcgBh+XlLexlOnOgU5lMblG+SMaDBLLCW8=
 github.com/coming-chat/go-red-packet v0.0.5-0.20230530070307-c05ad37efbc4 h1:KfY3GUKsUAgpFd7AblT/AEkXlQUqxZIwT4SlcJGxof0=
 github.com/coming-chat/go-red-packet v0.0.5-0.20230530070307-c05ad37efbc4/go.mod h1:Jf1MJZkpfPVtaLW/B0jz2CZQUjYlvZ7Hc2hs6fDtEqY=
 github.com/coming-chat/go-sui/v2 v2.0.1-0.20230518103936-ac853f583e8f h1:KPOGMdQH9cOt+ZMC/BJy8P3SzjOA0TL0zXgs4Pd4fnA=
