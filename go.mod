@@ -1,12 +1,14 @@
 module github.com/coming-chat/app-sdk-build
 
-go 1.18
+go 1.21
+
+toolchain go1.21.5
 
 require (
 	github.com/coming-chat/go-defi-sdk v0.1.8-0.20231031134916-7ec2d39b4d7e
 	github.com/coming-chat/go-dmens-sdk v0.0.0-20231215092705-82037ee8eb0d
 	github.com/coming-chat/go-red-packet v0.0.5-0.20230530070307-c05ad37efbc4
-	github.com/coming-chat/wallet-SDK v0.2.7-0.20231215091548-05619f7757eb
+	github.com/coming-chat/wallet-SDK v0.2.7-0.20240102102846-09948aa0418d
 	golang.org/x/mobile v0.0.0-20230531173138-3c911d8e3eda
 )
 
