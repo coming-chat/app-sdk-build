@@ -113,8 +113,8 @@ github.com/coming-chat/go-sui/v2 v2.0.1 h1:Mi7IGUvKd8OLP5zA3YhfDN/L5AJTXHsSsJnLb
 github.com/coming-chat/go-sui/v2 v2.0.1/go.mod h1:0/cgsi6HcHEfPFC05mY/ovzWuxxpmKxiY0NIEFgMP4g=
 github.com/coming-chat/lcs v0.0.0-20220829063658-0fa8432d2bdf h1:HrK16SFZnoxATieE+UHFSHZ6D2+XApv9g752MgvW7es=
 github.com/coming-chat/lcs v0.0.0-20220829063658-0fa8432d2bdf/go.mod h1:CVVNl2j3TGYyUjuux+oYrRenPGvD+5UQbPGYp/zUews=
-github.com/coming-chat/wallet-SDK v0.2.7-0.20240124100128-ec98ca3598e3 h1:/70jIotaJbrUCy/DY2v4rtm787ZZs7L7Yz7yp1CD9jE=
-github.com/coming-chat/wallet-SDK v0.2.7-0.20240124100128-ec98ca3598e3/go.mod h1:qOje5XKBaimfocMY0F4YwUyTWtczg9ximxM0CKX6XS4=
+github.com/coming-chat/wallet-SDK v0.2.7-0.20240125075202-82e5b8f960b9 h1:rwWiDUiop9AtQAJonamF9dceNilDP6v81u5EdkVjWnY=
+github.com/coming-chat/wallet-SDK v0.2.7-0.20240125075202-82e5b8f960b9/go.mod h1:qOje5XKBaimfocMY0F4YwUyTWtczg9ximxM0CKX6XS4=
 github.com/coreos/etcd v3.3.10+incompatible/go.mod h1:uF7uidLiAD3TWHmW31ZFd/JWoc32PjwdhPthX9715RE=
 github.com/coreos/go-etcd v2.0.0+incompatible/go.mod h1:Jez6KQU2B/sWsbdaef3ED8NzMklzPG4d5KIOhIy30Tk=
 github.com/coreos/go-semver v0.2.0/go.mod h1:nnelYz7RCh+5ahJtPPxZlU+153eP4D4r3EedlOD2RNk=
