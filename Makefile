@@ -93,7 +93,7 @@ iosCopySdk:
 	@cd ${iosReposity} \
 		&& rm -rf Sources/* \
 		&& cp -Rf ../${iosPackageName} Sources \
-		&& cp -Rf ../${iosPackageName}/ios-arm64/Wallet.framework/Versions/A/Headers Sources \
+		&& cp -Rf ../${iosPackageName}/ios-arm64/Wallet.framework/Headers Sources \
 		&& rm -rf Sources/Wallet.xcframework/ios-arm64_x86_64-simulator
 # 移除 x86_64 的文件，因为超过 100M 了，影响了代码上传和 swift 包的文件下载
 
