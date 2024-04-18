@@ -38,7 +38,10 @@ pkgRedpacket=${moduleRedpacket}/redpacket
 moduleDmens=github.com/coming-chat/go-dmens-sdk
 pkgDmens=${moduleDmens}/dmens
 
-pkgAll = ${pkgWalletSDK} ${pkgDefi} ${pkgAptosClient} ${pkgRedpacket} ${pkgDmens}
+moduleRune=github.com/coming-chat/go-runes-api
+pkgRune=${moduleRune}/rune
+
+pkgAll = ${pkgWalletSDK} ${pkgDefi} ${pkgAptosClient} ${pkgRedpacket} ${pkgDmens} ${pkgRune}
 
 iosSdkName=Wallet
 andSdkName=wallet

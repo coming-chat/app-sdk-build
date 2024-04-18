@@ -8,6 +8,7 @@ require (
 	github.com/coming-chat/go-defi-sdk v0.1.8-0.20231031134916-7ec2d39b4d7e
 	github.com/coming-chat/go-dmens-sdk v0.0.0-20231215092705-82037ee8eb0d
 	github.com/coming-chat/go-red-packet v0.0.5-0.20230530070307-c05ad37efbc4
+	github.com/coming-chat/go-runes-api v0.0.0-20240418031201-122d185f6a25
 	github.com/coming-chat/wallet-SDK v0.2.7-0.20240416095448-e22d52c2a160
 	golang.org/x/mobile v0.0.0-20230531173138-3c911d8e3eda
 )
@@ -23,8 +24,12 @@ require (
 	github.com/btcsuite/btcd v0.24.0 // indirect
 	github.com/btcsuite/btcd/btcec/v2 v2.3.2 // indirect
 	github.com/btcsuite/btcd/btcutil v1.1.5 // indirect
+	github.com/btcsuite/btcd/btcutil/psbt v1.1.9 // indirect
 	github.com/btcsuite/btcd/chaincfg/chainhash v1.1.0 // indirect
+	github.com/btcsuite/btclog v0.0.0-20170628155309-84c8d2346e9f // indirect
 	github.com/btcsuite/btcutil v1.0.3-0.20201208143702-a53e38424cce // indirect
+	github.com/btcsuite/go-socks v0.0.0-20170105172521-4720035b7bfd // indirect
+	github.com/btcsuite/websocket v0.0.0-20150119174127-31079b680792 // indirect
 	github.com/centrifuge/go-substrate-rpc-client/v4 v4.0.0 // indirect
 	github.com/coming-chat/go-aptos v0.0.0-20230626110140-8331b0e6cdd4 // indirect
 	github.com/coming-chat/go-sui/v2 v2.0.1 // indirect
