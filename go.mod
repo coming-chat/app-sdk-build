@@ -9,7 +9,7 @@ require (
 	github.com/coming-chat/go-dmens-sdk v0.0.0-20231215092705-82037ee8eb0d
 	github.com/coming-chat/go-red-packet v0.0.5-0.20230530070307-c05ad37efbc4
 	github.com/coming-chat/go-runes-api v0.0.0-20240418031201-122d185f6a25
-	github.com/coming-chat/wallet-SDK v0.2.7-0.20240524093019-5a39dbe40521
+	github.com/coming-chat/wallet-SDK v0.2.7-0.20240527100910-22f52cd9a482
 	golang.org/x/mobile v0.0.0-20230531173138-3c911d8e3eda
 )
 
@@ -20,6 +20,7 @@ replace github.com/99designs/keyring => github.com/coming-chat/keyring v1.3.0
 require (
 	github.com/ChainSafe/go-schnorrkel v0.0.0-20210318173838-ccb5cd955283 // indirect
 	github.com/Microsoft/go-winio v0.6.1 // indirect
+	github.com/aead/siphash v1.0.1 // indirect
 	github.com/bits-and-blooms/bitset v1.13.0 // indirect
 	github.com/btcsuite/btcd v0.24.0 // indirect
 	github.com/btcsuite/btcd/btcec/v2 v2.3.2 // indirect
@@ -56,6 +57,7 @@ require (
 	github.com/holiman/uint256 v1.2.4 // indirect
 	github.com/huandu/xstrings v1.3.2 // indirect
 	github.com/itering/subscan v0.1.0 // indirect
+	github.com/kkdai/bstream v0.0.0-20161212061736-f391b8402d23 // indirect
 	github.com/mimoo/StrobeGo v0.0.0-20210601165009-122bf33a46e0 // indirect
 	github.com/mitchellh/hashstructure/v2 v2.0.2 // indirect
 	github.com/mmcloughlin/addchain v0.4.0 // indirect
