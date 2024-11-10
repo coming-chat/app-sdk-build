@@ -41,7 +41,13 @@ pkgDmens=${moduleDmens}/dmens
 moduleRune=github.com/coming-chat/go-runes-api
 pkgRune=${moduleRune}/rune
 
-pkgAll = ${pkgWalletSDK} ${pkgDefi} ${pkgAptosClient} ${pkgRedpacket} ${pkgDmens} ${pkgRune}
+# Lnd mobile 
+moduleLnd=github.com/lightningnetwork/lnd
+pkgLndmobile=${moduleLnd}/mobile
+lndDevTag=dev
+lndRpcTags=autopilotrpc chainrpc invoicesrpc neutrinorpc peersrpc routerrpc signrpc verrpc walletrpc watchtowerrpc wtclientrpc
+
+pkgAll = ${pkgWalletSDK} ${pkgDefi} ${pkgAptosClient} ${pkgRedpacket} ${pkgDmens} ${pkgRune} ${pkgLndmobile}
 
 iosSdkName=Wallet
 andSdkName=wallet
@@ -55,9 +61,9 @@ BuilderRefer=https://github.com/coming-chat/app-sdk-build/commit/$(BuilderHash)
 
 buildAllSDKAndroid:
 ifndef t
-	gomobile bind -ldflags "-s -w" -v -target=android/arm,android/arm64,android/amd64 -o=${outdir}/${andSdkName}.aar ${pkgAll}
+	gomobile bind -tags="mobile ${lndDevTag} ${lndRpcTags}" -ldflags "-s -w" -v -target=android/arm,android/arm64,android/amd64 -o=${outdir}/${andSdkName}.aar ${pkgAll}
 else
-	docker run --net=host  ${PWD}:/module -v ${HOME}/.gitconfig:/root/.gitconfig -v ${HOME}/.ssh:/root/.ssh --entrypoint /bin/sh makeworld/gomobile-android -c 'export GOPRIVATE=github.com/coming-chat/go-defi-sdk && export GOPROXY=https://goproxy.cn && go mod download && gomobile bind -ldflags "-s -w" -target=android/arm,android/arm64 -o=${outdir}/${andSdkName}.aar ${pkgAll}'
+	docker run --net=host  ${PWD}:/module -v ${HOME}/.gitconfig:/root/.gitconfig -v ${HOME}/.ssh:/root/.ssh --entrypoint /bin/sh makeworld/gomobile-android -c 'export GOPRIVATE=github.com/coming-chat/go-defi-sdk && export GOPROXY=https://goproxy.cn && go mod download && gomobile bind -tags="mobile ${lndDevTag} ${lndRpcTags}" -ldflags "-s -w" -target=android/arm,android/arm64 -o=${outdir}/${andSdkName}.aar ${pkgAll}'
 endif
 
 androidReposity=${outdir}/wallet-sdk-android
@@ -88,7 +94,7 @@ endif
 #### IOS build
 
 buildAllSDKIOS:
-	GOOS=ios gomobile bind -ldflags "-s -w" -v -target=ios/arm64  -o=${outdir}/${iosSdkName}.xcframework ${pkgAll}
+	GOOS=ios gomobile bind -tags="mobile ${lndDevTag} ${lndRpcTags}" -ldflags "-s -w" -v -target=ios/arm64  -o=${outdir}/${iosSdkName}.xcframework ${pkgAll}
 
 iosPackageName=${iosSdkName}.xcframework
 iosReposity=${outdir}/Wallet-iOS
