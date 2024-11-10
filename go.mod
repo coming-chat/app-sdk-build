@@ -1,6 +1,6 @@
 module github.com/coming-chat/app-sdk-build
 
-go 1.21
+go 1.21.4
 
 toolchain go1.21.5
 
