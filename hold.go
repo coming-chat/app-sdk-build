@@ -7,6 +7,7 @@ import (
 	"github.com/coming-chat/go-red-packet/redpacket"
 	"github.com/coming-chat/go-runes-api/rune"
 	"github.com/coming-chat/wallet-SDK/core/aptos"
+	lndmobile "github.com/lightningnetwork/lnd/mobile"
 	_ "golang.org/x/mobile/bind"
 )
 
@@ -22,6 +23,8 @@ func init() {
 	C = redpacket.AptosName
 	DmensAction = dmens.ACTION_POST
 	RuneUrl = rune.UrlTestnet
+
+	var _ = lndmobile.GenSeed
 }
 
 type T struct {
