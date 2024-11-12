@@ -9,7 +9,7 @@ require (
 	github.com/coming-chat/go-dmens-sdk v0.0.0-20231215092705-82037ee8eb0d
 	github.com/coming-chat/go-red-packet v0.0.5-0.20230530070307-c05ad37efbc4
 	github.com/coming-chat/go-runes-api v0.0.0-20240621100951-903dc5ff548c
-	github.com/coming-chat/wallet-SDK v0.2.7-0.20241109124543-d48c7407aa32
+	github.com/coming-chat/wallet-SDK v0.2.7-0.20241112073751-a4c885a4cfb8
 	github.com/lightningnetwork/lnd v0.18.3-beta
 	golang.org/x/mobile v0.0.0-20230531173138-3c911d8e3eda
 )
