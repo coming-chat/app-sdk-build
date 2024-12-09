@@ -1,6 +1,8 @@
 module github.com/coming-chat/app-sdk-build
 
-go 1.23.4
+go 1.21.4
+
+toolchain go1.23.4
 
 require (
 	github.com/coming-chat/go-defi-sdk v0.1.8-0.20231031134916-7ec2d39b4d7e
