@@ -22,6 +22,8 @@ replace github.com/lightningnetwork/lnd => github.com/coming-chat/lnd v0.18.3-be
 
 replace google.golang.org/protobuf => github.com/lightninglabs/protobuf-go-hex-display v1.30.0-hex-display
 
+replace github.com/btcsuite/btclog/v2 => github.com/imtianx/btclog/v2 v2.0.1
+
 require (
 	github.com/Azure/go-ansiterm v0.0.0-20230124172434-306776ec8161 // indirect
 	github.com/ChainSafe/go-schnorrkel v0.0.0-20210318173838-ccb5cd955283 // indirect
