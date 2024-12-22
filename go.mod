@@ -10,7 +10,7 @@ require (
 	github.com/coming-chat/go-red-packet v0.0.5-0.20230530070307-c05ad37efbc4
 	github.com/coming-chat/go-runes-api v0.0.0-20240621100951-903dc5ff548c
 	github.com/coming-chat/wallet-SDK v0.2.7-0.20241209142602-efca37231581
-	github.com/lightningnetwork/lnd v0.18.3-beta
+	github.com/lightningnetwork/lnd v0.18.2-beta
 	golang.org/x/mobile v0.0.0-20230531173138-3c911d8e3eda
 )
 
@@ -18,7 +18,7 @@ replace github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.3-alp
 
 replace github.com/99designs/keyring => github.com/coming-chat/keyring v1.3.0
 
-replace github.com/lightningnetwork/lnd => github.com/coming-chat/lnd v0.18.3-beta.coming
+replace github.com/lightningnetwork/lnd => github.com/coming-chat/lnd v0.18.2-beta.coming
 
 replace google.golang.org/protobuf => github.com/lightninglabs/protobuf-go-hex-display v1.30.0-hex-display
 
@@ -36,7 +36,7 @@ require (
 	github.com/aead/siphash v1.0.1 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/bits-and-blooms/bitset v1.13.0 // indirect
-	github.com/btcsuite/btcd v0.24.2-beta.rc1.0.20240625142744-cc26860b4026 // indirect
+	github.com/btcsuite/btcd v0.24.2 // indirect
 	github.com/btcsuite/btcd/btcec/v2 v2.3.3 // indirect
 	github.com/btcsuite/btcd/btcutil v1.1.5 // indirect
 	github.com/btcsuite/btcd/btcutil/psbt v1.1.9 // indirect
