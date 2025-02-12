@@ -36,7 +36,8 @@ jobs:
 
   build-android:
     name: build wallet sdk for Android
-    runs-on: ubuntu-latest
+    # Using a newer ubuntu version will cause an error in the `Setup Android NDK` step.
+    runs-on: ubuntu-22.04
 
     steps:
       - name: set up JDK 11
